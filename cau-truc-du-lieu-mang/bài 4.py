@@ -1,8 +1,18 @@
-n=input()
 a=[]
-for (i == 0 i<n)
-    b=input()
-    a.append(b)
+n=input(list())
+for i in range (n):
+    m=input()
+    a.append(m)
 k=input()
-x=input()
-for (i = )
+n=input()
+c=[]
+for m in range (100):
+    if n == n and i>=k+1:
+        c.append(m)
+        m+=1
+for k in c:
+    a[i]=a[i-1]
+a[k] = x
+for i in a:
+    print(i)
+    i+=1

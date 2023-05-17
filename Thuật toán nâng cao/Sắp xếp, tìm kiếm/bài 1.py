@@ -10,9 +10,3 @@ def findx(arr,x):
                     x=(len((arr[(min(arr)-max(arr))/2])))-1
                 else:
                     x=x=(len((arr[(min(arr)-max(arr))/2])))+1
-k=input()
-arr=[]
-for i in range (int(k)):
-    arr.append(k)
-    i+=1
-print(findx(arr,x))

@@ -1,8 +1,4 @@
-a=[]
-n=input(list())
-for i in range (n):
-    m=input()
-    a.append(m)
+n=input()
 k=input()
 n=input()
 c=[]
@@ -15,4 +11,4 @@ for k in c:
 a[k] = x
 for i in a:
     print(i)
-    i+=1
+    i+=1 

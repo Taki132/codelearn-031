@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main() {
-    float a = 10.5;
-    int b = 7;
-    cout<<"a / b = "<<a/b;
+    float a = 7.5;
+    float b = 3.8;
+    cout<<"Area = "<<a*b;
     return 0;
 }

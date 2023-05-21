@@ -1,27 +1,18 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
-int main()
-{
-    int a[100];
-    t n, k, x;in
+int main() {
+    int n;
     cin >> n;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
+    if (n > 0) {
+        cout << "n is a positive number";
+    } else{
+        if (n < 0) {
+            cout << "n is a negative number";
+        } else {
+            cout << "n is equal to 0";
+        }
     }
-    cin >> k >> x;
-    for (int i = n; i >= k + 1; i--)
-    {
-        a[i] = a[i - 1];
-    }
-    a[k] = x;
-    n++;
-    for (int i = 0; i < n; i++)
-    {
-        cout << a[i] << " ";
-    }
-
     return 0;
 }

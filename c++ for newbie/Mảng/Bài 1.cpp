@@ -2,15 +2,13 @@
 using namespace std;
 int main(){
     int a[10];
+    int k;
     for (int i=0; i<10; i++){
         cin>>a[i];
     }
-    int k = a[0];
     for (int i=0; i<10; i++){
-        if (k<a[i]){
-            k+=a[i];
-        }
+        k+=a[i];
     }
-    cout<<k;
+    cout<<k
     return 0;
 }

@@ -8,8 +8,12 @@ int main(){
         cin>>a[i];
     }
     for (int i=0;i<n;i++){
-        if (a[i+1]<a[i]){
-            a[i]=a[i+1];
+        for (int k=i+1; j<n;j++){
+            if (a[i+1]<a[i]){
+                int k
+                a[i]=a[k]
+
+            }
         }
     }
     for (int i=0;i<n;i++){

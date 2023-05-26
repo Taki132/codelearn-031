@@ -2,6 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "auto",
+            "type": "auto-debug",
+            "request": "launch",
+            "map": {
+                "*.py": "Python: Current File",
+                "*.cpp": "g++",
+            }
+        },
+        {
             "name": "C/C++: cpp build and debug active file",
             "type": "cppdbg",
             "request": "launch",
